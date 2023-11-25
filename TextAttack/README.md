@@ -1,6 +1,6 @@
 # TextAttack
 
-We have adopted a widely used text adversarial framework *TextAttack*(https://github.com/QData/TextAttack) and made some modifications to adapt to targeted attacks.
+We have adopted a widely used text adversarial framework *TextAttack*(https://github.com/QData/TextAttack) and made some modifications to adapt to targeted attacks. We observe the targeted attack performance of existing methods and use those as baseline models.
 
 
 --------------
