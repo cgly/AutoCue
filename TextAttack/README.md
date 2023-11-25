@@ -12,5 +12,6 @@ goal_function = TargetedClassification(model_wrapper, target_class=cur_target) #
 
 ```
 #Execute targeted attacks
+#Changing the configuration in MulTarAttack.py allows for the selection of models and attack methods
 python MulTarAttack.py
 ```
