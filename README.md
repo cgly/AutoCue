@@ -13,10 +13,11 @@ pip install -r AutoCueRequirements.txt
 bash run.sh
 ```
 -------------------
-## For TextAttack: check the TextAttack/README.md
+## For TextAttack: 
+check the TextAttack/README.md
 -------------------
 ## LM-BFF:
-the LLM-BFF output demo(We only use the templates and prompt words provided by LMM-BFF, so LMM-BFF and adversarial attack code are independent. LM-BFF only needs to be trained on the same distributed datasets.)
+the [LM-BFF](https://github.com/princeton-nlp/LM-BFF) output demo(We only use the templates and prompt words provided by LM-BFF, so LM-BFF and adversarial attack code are independent. LM-BFF only needs to be trained on the same distributed datasets.)
 
 ```
 0.93750 *cls**sent_0*_Read_more_at*mask*_Week._com.*sep+*	{0: "Religion", 1: "Sports", 2: "Business", 3: "Tech"}
