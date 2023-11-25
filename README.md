@@ -5,19 +5,19 @@ Our project is divided into three parts:
 1. AutoCue:Our main experimental code (inspired by the [CLARE](https://github.com/cookielee77/CLARE) and [Textfooler](https://github.com/jind11/TextFooler) projects)
 2.  TextAttack: A TextAttack framework modified for targeted attacks, serving as a baseline.
 3.  LM-BFF: A method of fine-tuning a PLM from small sample data and generating Prompt.
--------------------
+
 ## For AutoCue:
 ```
 #run AutoCue
 pip install -r AutoCueRequirements.txt
 bash run.sh
 ```
--------------------
+
 ## For TextAttack: 
 
 check the TextAttack/README.md
 
--------------------
+
 ## LM-BFF:
 the [LM-BFF](https://github.com/princeton-nlp/LM-BFF) output demo(We only use the templates and prompt words provided by LM-BFF, so LM-BFF and adversarial attack code are independent. LM-BFF only needs to be trained on the same distributed datasets.)
 
